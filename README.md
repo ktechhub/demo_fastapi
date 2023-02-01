@@ -77,9 +77,7 @@ sudo apt install libmysqlclient-dev python-dev -y
 pip3 install mysql-connector-python
 ```
 ### Work with MySQL Connector
-```sh
-https://www.w3schools.com/python/python_mysql_getstarted.asp
-```
+[https://www.w3schools.com/python/python_mysql_getstarted.asp](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 
 Test DB
 ```sh
