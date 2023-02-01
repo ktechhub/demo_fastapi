@@ -26,7 +26,7 @@ async def list_brands() -> List:
 )
 async def get_brand(id: int) -> Dict:
     """Get a single brand"""
-    brand = next((item for item in brands_data if item['id'] == id), None)
+    brand = next((item for item in brands_data if item["id"] == id), None)
     if not brand:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
