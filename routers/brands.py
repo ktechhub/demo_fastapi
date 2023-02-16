@@ -20,7 +20,7 @@ async def list_brands() -> List:
 
 
 @router.get(
-    "/brands/{id}",
+    "/{id}",
     status_code=status.HTTP_200_OK,
     response_model=Brand,
 )
