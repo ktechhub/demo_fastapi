@@ -45,6 +45,16 @@ jobs:
           make run
           sleep 30
       
+      # - name: build and Run App
+      #   run: |
+      #     cp .env.example .env
+      #     make build-and-run
+      #     sleep 30
+      
       - name: Test app with Curl
         run: |
           curl http://127.0.0.1:8000/api/v1/brands/list
+      
+      - name: Destroy App
+        run: |
+          make destroy
