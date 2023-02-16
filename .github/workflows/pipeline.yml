@@ -37,6 +37,7 @@ jobs:
       
       - name: Build App
         run: |
+          cp .env.example .env
           make build
         
       - name: Run App
